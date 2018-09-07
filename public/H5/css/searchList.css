@@ -1,0 +1,50 @@
+.lt_search{
+    width: 100%;
+    padding: 10px;
+}
+
+.lt_search input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid red;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.lt_search a{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    text-align: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.lt_order {
+    width: 100%;
+}
+
+.lt_order a{
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f9f9f9;
+}
+
+.lt_order a.active{
+    color: red;
+}

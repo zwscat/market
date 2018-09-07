@@ -1,0 +1,48 @@
+.p_option{
+    width: 100%;
+    min-height: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+
+}
+
+.p_option ul{
+    width: 100%;
+}
+
+.p_option li:first-child{
+    width: 20%;
+}
+
+.p_option li{
+    width: 40%;
+    height: 100%;
+    line-height: 45px;
+    float: left;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #f8f8f8;
+}
+
+.p_option li a{
+    width: 100%;
+    height: 100%;
+    color: #ccc;
+    font-size: 12px;
+    display: block;
+    color: #fff;
+}
+
+.p_option li:nth-child(2){
+    background-color: lightblue;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.p_option li:last-child{
+    background-color: red;
+    border-top-right-radius:25px;
+    border-bottom-right-radius: 25px;
+}
